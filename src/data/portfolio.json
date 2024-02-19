@@ -1,0 +1,123 @@
+{
+  "name": "JEM",
+  "experiencedFrom": "2016",
+  "fullName": "joshua e. miller",
+  "bio": "Hi there! I'm joshua millere emore, a passionate and dedicated individual driven by curiosity and a love for learning. With a background in [Your Field or Expertise], I thrive on exploring new ideas, solving problems, and connecting with people from diverse backgrounds. Whether it's delving into the intricacies of technology, crafting compelling stories through writing, or engaging in meaningful conversations, I'm always eager to expand my horizons and make a positive impact. When I'm not immersed in work or projects, you can find me exploring the outdoors, experimenting in the kitchen, or simply enjoying a good book with a cup of coffee. Let's connect and explore the possibilities together!",
+  "headerTagline": "Experienced web developer based in lagos, nigeria.",
+  "avatar": "/images/profile-picture.jpg",
+  "showBlog": true,
+  "darkMode": true,
+  "testimonial": {
+    "message": "“Josh is such an exceptional developer and above all he has been a really good friend.”",
+    "name": "jesse spencer"
+  },
+  "socials": [
+    {
+      "id": "1",
+      "title": "Github",
+      "link": "https://github.com/josh-millr"
+    },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/josh-millr/"
+    },
+    {
+      "id": "3",
+      "title": "Twitter",
+      "link": "https://twitter.com/josh-millr"
+    },
+    {
+      "id": "5",
+      "title": "Email",
+      "link": "mailto:joshuae.miller100@gmail.com"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "JANEELLE BROWN WEBSITE",
+      "description": "Empower E-commerce is a comprehensive dashboard designed to provide businesses with a centralized platform for monitoring, analyzing, and optimizing their online operations. Developed with a focus on user experience and actionable insights, this dashboard empowers e-commerce enterprises to make informed decisions and drive growth in a competitive digital landscape.",
+      "embedURL": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "imagePreview": "/images/project-one.png",
+      "url": "http://chetanverma.com/"
+    },
+    {
+      "id": "2",
+      "title": "EVENT MANAGEMENT DASHBOARD",
+      "description": "Empower E-commerce is a comprehensive dashboard designed to provide businesses with a centralized platform for monitoring, analyzing, and optimizing their online operations. Developed with a focus on user experience and actionable insights, this dashboard empowers e-commerce enterprises to make informed decisions and drive growth in a competitive digital landscape.",
+      "embedURL": "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+      "imagePreview": "/images/project-one.png",
+      "url": "http://chetanverma.com/"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Art Direction",
+      "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
+    },
+    {
+      "id": "2",
+      "title": "Branding",
+      "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
+    },
+    {
+      "id": "3",
+      "title": "Web Design",
+      "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
+    },
+    {
+      "id": "4",
+      "title": "3D Design",
+      "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+    }
+  ],
+  "aboutpara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "resume": {
+    "tagline": "👋  I'm a software engineer, product designer, and maker.",
+    "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "March 2022 - Present",
+        "type": "Full Time",
+        "position": "Frontend Engineer at X",
+        "bullets": [
+          "Worked on the frontend of a React application",
+          "Worked on the frontend of a React application"
+        ]
+      },
+      {
+        "id": "2",
+        "dates": "March 2020 - March 2022",
+        "type": "Full Time",
+        "position": "Frontend Engineer at X",
+        "bullets": [
+          "Worked on the frontend of a React application"
+        ]
+      }
+    ],
+    "education": {
+      "universityName": "University X",
+      "universityDate": "2016-2020",
+      "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+    },
+    "languages": [
+      "Javascript",
+      "HTML5",
+      "CSS",
+      "Python"
+    ],
+    "frameworks": [
+      "React",
+      "Typescript",
+      "NodeJs"
+    ],
+    "others": [
+      "Figma",
+      "AdobeXD",
+      "AWS"
+    ]
+  }
+}
