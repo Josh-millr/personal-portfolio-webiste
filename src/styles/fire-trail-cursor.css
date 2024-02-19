@@ -1,0 +1,17 @@
+.circle {
+	height: 32px;
+	width: 32px;
+	border-radius: 9999px;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	z-index: 99999999;
+	transition: width 0.3s ease-out, height 0.3s ease-out;
+}
+
+.circle-hovered {
+	height: 16px;
+	width: 16px;
+}

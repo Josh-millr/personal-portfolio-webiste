@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "./fire-trail-cursor.css";
 
 @layer base {
 	:root {
@@ -75,6 +76,10 @@
 		scroll-behavior: smooth;
 	}
 
+	html {
+		cursor: none;
+	}
+
 	body {
 		@apply bg-background text-foreground;
 		scroll-behavior: smooth;
@@ -99,6 +104,11 @@
 
 	a:hover::after {
 		transform: scaleX(1);
+	}
+
+	::selection {
+		background-color: #a3d8e3;
+		color: #1c424a;
 	}
 }
 
