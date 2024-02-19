@@ -63,7 +63,7 @@ export function AboutMe() {
 						/>
 						<div className="relative top-10 grid gap-10 m-auto place-items-center">
 							<h1 className="font-h text-6xl text-center capitalize text-white">
-								Lets work
+								{"Let's"} work
 								<br /> together
 							</h1>
 							<ContactMe className="w-fit bg-white text-black" />
