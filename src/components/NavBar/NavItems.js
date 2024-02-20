@@ -26,7 +26,7 @@ export function NavItems() {
 			{/* Tablet / Desktop View Only */}
 			<div className="items-center gap-x-6 hidden lg:flex">
 				{links.map(({ label, href }) => (
-					<Link href={href} key={label} className="font-p uppercase text-sm">
+					<Link href={href} key={label} className="font-p uppercase text-sm animated-link">
 						{label}
 					</Link>
 				))}

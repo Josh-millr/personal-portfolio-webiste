@@ -12,8 +12,8 @@ export default function Home() {
 			<Header />
 			<SocialBar />
 			<WorkDone />
-			<AboutMe />
-			<Footer />
+			{/* <AboutMe /> */}
+			{/* <Footer /> */}
 		</>
 	);
 }

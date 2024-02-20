@@ -85,11 +85,11 @@
 		overflow-x: hidden;
 	}
 
-	a {
+	.animated-link {
 		position: relative;
 	}
 
-	a::after {
+	.animated-link::after {
 		content: "";
 		position: absolute;
 		left: 0;
@@ -102,7 +102,7 @@
 		transition: transform 0.3s ease;
 	}
 
-	a:hover::after {
+	.animated-link:hover::after {
 		transform: scaleX(1);
 	}
 
