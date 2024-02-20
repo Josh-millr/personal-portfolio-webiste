@@ -1,6 +1,5 @@
 import "@/styles/globals.css";
 
-import { ScrollArea } from "@/components/ui/scroll-area";
 import { GlobalProvider } from "@/provider/GlobalProvider";
 import { FireTrailCursor } from "@/components/FireTrailCursor";
 
@@ -22,8 +21,4 @@ export default function RootLayout({ children }) {
 			</body>
 		</html>
 	);
-}
-
-{
-	/* <ScrollArea className="w-screen h-screen"></ScrollArea>; */
 }
