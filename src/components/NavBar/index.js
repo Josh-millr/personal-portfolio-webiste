@@ -16,7 +16,7 @@ export function NavBar() {
 		const handleWindowScroll = () => {
 			const currentScroll = window.scrollY;
 
-			if (currentScroll <= 0) {
+			if (currentScroll <= 10) {
 				body.classList.remove("scroll-up");
 			}
 
