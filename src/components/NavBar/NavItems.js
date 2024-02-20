@@ -3,7 +3,6 @@ import { Fragment } from "react";
 import { Menu, Xmark } from "iconoir-react";
 import { Popover, Transition } from "@headlessui/react";
 
-import { Button } from "../ui/button";
 import { ContactMe } from "../ContactMe";
 
 const links = [
@@ -27,11 +26,7 @@ export function NavItems() {
 			{/* Tablet / Desktop View Only */}
 			<div className="items-center gap-x-6 hidden lg:flex">
 				{links.map(({ label, href }) => (
-					<Link
-						href={href}
-						key={label}
-						className="font-p uppercase text-sm text-white"
-					>
+					<Link href={href} key={label} className="font-p uppercase text-sm">
 						{label}
 					</Link>
 				))}

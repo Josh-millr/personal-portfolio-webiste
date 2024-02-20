@@ -72,7 +72,6 @@
 
 	* {
 		@apply border-border;
-		@apply overflow-hidden;
 		scroll-behavior: smooth;
 	}
 
@@ -83,6 +82,7 @@
 	body {
 		@apply bg-background text-foreground;
 		scroll-behavior: smooth;
+		overflow-x: hidden;
 	}
 
 	a {
@@ -115,6 +115,7 @@
 @layer utilities {
 	.home-header {
 		background-image: url("/images/noisy-background.png");
+		background-attachment: fixed;
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -127,5 +128,20 @@
 
 	.avatar-tag-border:hover {
 		height: 290px;
+	}
+
+	nav {
+		position: sticky;
+		top: 0;
+		left: 0;
+		transition: all 0.3s ease-in-out;
+	}
+
+	.scroll-down nav {
+		transform: translate3d(0px, -100px, 0px);
+	}
+
+	.scroll-up nav {
+		filter: drop-shadow(0 -10px 20px rgb(170, 170, 170));
 	}
 }

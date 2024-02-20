@@ -6,13 +6,11 @@ import gsap from "gsap/gsap-core";
 
 import data from "@/data/portfolio.json";
 
-import { NavBar } from "../NavBar";
 import { AvatarTag } from "../AvatarTag";
-
-const { experiencedFrom, headerTagline } = data;
 
 export function Header() {
 	const container = useRef();
+	const { experiencedFrom, headerTagline } = data;
 
 	useGSAP(
 		() => {
@@ -27,8 +25,6 @@ export function Header() {
 	);
 	return (
 		<header className="home-header">
-			<NavBar />
-
 			<div className="container pt-20 pb-10 flex flex-col lg:flex-row gap-y-14 gap-x-11 items-center">
 				<AvatarTag className="order-last lg:order-first" />
 

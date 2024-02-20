@@ -11,7 +11,7 @@ export function AvatarTag(props) {
 	return (
 		<div
 			className={cn(
-				"avatar-tag-border relative w-[216px] rounded-[40px] border-white/20 border-8",
+				"avatar-tag-border relative w-[216px] rounded-[40px] border-white/20 border-8 overflow-hidden",
 				className
 			)}
 		>

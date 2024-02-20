@@ -14,14 +14,16 @@ export default function RootLayout({ children }) {
 		<html lang="en" suppressHydrationWarning>
 			<body className={`${power.variable} ${circular.variable}`}>
 				<main>
-					<ScrollArea className="w-screen h-screen">
-						<GlobalProvider>
-							<FireTrailCursor />
-							{children}
-						</GlobalProvider>
-					</ScrollArea>
+					<GlobalProvider>
+						<FireTrailCursor />
+						{children}
+					</GlobalProvider>
 				</main>
 			</body>
 		</html>
 	);
+}
+
+{
+	/* <ScrollArea className="w-screen h-screen"></ScrollArea>; */
 }
