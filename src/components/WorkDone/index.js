@@ -8,7 +8,9 @@ const { projects } = data;
 export function WorkDone() {
 	return (
 		<section>
-			<SectionTitle id="work">works.</SectionTitle>
+			<SectionTitle id="work" className="mb-10">
+				works.
+			</SectionTitle>
 
 			<div className="container">
 				{projects.map(
