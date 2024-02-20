@@ -86,22 +86,34 @@ export function FireTrailCursor() {
 	}, [coords, circles]);
 
 	useEffect(() => {
-		const handleMouseEnter = () => {
+		const handleMouseEnter = (e) => {
 			circles.forEach((circle) => {
-				circle.classList.add("circle-hovered");
+				if (e.target.classList.contains("project-image")) {
+					circle.classList.add("no-circle");
+				} else {
+					circle.classList.add("circle-hovered");
+				}
 			});
 		};
 
-		const handleMouseLeave = () => {
+		const handleMouseLeave = (e) => {
 			circles.forEach((circle) => {
-				circle.classList.remove("circle-hovered");
+				if (e.target.classList.contains("project-image")) {
+					circle.classList.remove("no-circle");
+				} else {
+					circle.classList.remove("circle-hovered");
+				}
 			});
 		};
 
-		var buttons = document.getElementsByTagName("button");
-		var anchors = document.getElementsByTagName("a");
+		let buttons = document.getElementsByTagName("button");
+		let anchors = document.getElementsByTagName("a");
+		let projectImage = document.querySelector(".project-image");
 
 		const elements = [...Array.from(buttons), ...Array.from(anchors)];
+
+		projectImage.addEventListener("mouseover", handleMouseEnter);
+		projectImage.addEventListener("mouseout", handleMouseLeave);
 
 		elements.forEach(function (element) {
 			element.addEventListener("mouseover", handleMouseEnter);
@@ -110,6 +122,7 @@ export function FireTrailCursor() {
 
 		// Clean up event listeners
 		return () => {
+			projectImage.removeEventListener("mouseover", handleMouseEnter);
 			elements.forEach(function (element) {
 				element.removeEventListener("mouseover", handleMouseEnter);
 				element.removeEventListener("mouseout", handleMouseLeave);

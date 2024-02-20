@@ -3,7 +3,7 @@ import Image from "next/image";
 function ImagePreview({ src }) {
 	return (
 		<div className="relative w-full max-w-[520px] h-[283px] lg:h-[608px] rounded-3xl bg-background border-[12px] shadow-inner border-black/40 dark:border-white/40 overflow-hidden">
-			<Image src={src} alt="" fill className="object-cover w-full h-full" />
+			<Image src={src} alt="" fill className="object-cover w-full h-full project-image" />
 		</div>
 	);
 }

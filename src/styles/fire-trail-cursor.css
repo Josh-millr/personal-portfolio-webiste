@@ -15,3 +15,7 @@
 	height: 16px;
 	width: 16px;
 }
+.no-circle {
+	height: 0px;
+	width: 0px;
+}
