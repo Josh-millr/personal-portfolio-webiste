@@ -24,13 +24,13 @@ export function Header() {
 
 			<div className="container pt-28 pb-24 flex flex-col lg:flex-row gap-y-14 gap-x-11 items-center">
 				{/* Avatar Image */}
-				<div className="relative overflow-hidden">
+				<div className="relative overflow-hidden order-last lg:order-first">
 					<motion.div
 						initial={{ x: "100%" }}
 						animate={{ x: "0%" }}
 						transition={{ delay: 0.9, ease: "easeInOut" }}
 					>
-						<AvatarTag className="order-last lg:order-first" />
+						<AvatarTag />
 					</motion.div>
 				</div>
 
